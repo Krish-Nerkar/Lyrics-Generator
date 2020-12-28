@@ -13,7 +13,6 @@ bm_model = cp.load(open("bm_model.pickle", 'rb'))
 mj_model = cp.load(open("mj_model.pickle", 'rb'))"""
 
 app = flask.Flask(__name__, template_folder='templates')
-# taken from this StackOverflow answer: https://stackoverflow.com/a/39225039
 
 
 def download_file_from_google_drive(id, destination):
@@ -44,7 +43,7 @@ def save_response_content(response, destination):
 
     with open(destination, "wb") as f:
         for chunk in response.iter_content(CHUNK_SIZE):
-            if chunk:  # filter out keep-alive new chunks
+            if chunk: 
                 f.write(chunk)
 
 
