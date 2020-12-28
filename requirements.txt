@@ -3,5 +3,5 @@ flask
 simpletransformers
 selenium
 gunicorn
-https://download.pytorch.org/whl/cpu/torch-0.3.0.post4-cp27-cp27m-linux_x86_64.whl
+https://s3.amazonaws.com/pytorch/whl/cu75/torch-0.1.6.post22-cp27-none-linux_x86_64.whl
 cloudpickle
