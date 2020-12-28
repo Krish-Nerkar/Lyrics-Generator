@@ -3,5 +3,5 @@ flask
 simpletransformers
 selenium
 gunicorn
-torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+https://download.pytorch.org/whl/cpu/torch-0.4.1-cp27-cp27m-linux_x86_64.whl
 cloudpickle
